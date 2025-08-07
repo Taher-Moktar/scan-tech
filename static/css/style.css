@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.header {
+  background-color: #1747a1;
+  padding: 20px;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h1 span{
+  color: yellow;
+}
+
+.header h1 {
+  color: white;
+  font-size: 24px;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+.header ul a:hover{
+  background: #e13c13;;
+}
+.vp {
+  background:url(../images/enetcom.png) center center/cover;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.vp-content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.image {
+  width: 120px;
+  border-radius: 40%;
+  margin: auto;
+}
+
+.formulaire {
+  text-align: center;
+}
+
+button.component {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #00bcd4;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+footer {
+  background-color: #063772;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+footer img {
+  height: 50px;
+}
+
+footer .ajuster {
+  margin-top: 10px;
+}
+
+.email {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+.taher p,.mohamed p{
+  font-size: 30px;
+  color: #120909;
+  border: 3px solid #a5f4ff;
+  background: #a5f4ff;
+  border-radius: 15px;
+  text-align: center;
+}
+.taher,.mohamed{
+  text-align: centre;
+  width: 300px;
+  margin: 20px;
+}

@@ -1,0 +1,9 @@
+{
+  "condensateur": "Un composant utilisé pour stocker l'énergie électrique temporairement.",
+  "led bleu": "Une diode électroluminescente émettant une lumière bleue.",
+  "led rouge": "Une diode électroluminescente émettant une lumière rouge.",
+  "led vert": "Une diode électroluminescente émettant une lumière verte.",
+  "résistance 2.2 kilo ohm": "Limite le courant à 2.2kΩ.",
+  "résistance 20 kilo ohm": "Limite le courant à 20kΩ.",
+  "résistance 220 kilo ohm": "Limite le courant à 220kΩ."
+}
