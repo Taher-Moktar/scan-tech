@@ -1,9 +1,30 @@
 {
-  "condensateur": "Un composant utilisé pour stocker l'énergie électrique temporairement.",
-  "led bleu": "Une diode électroluminescente émettant une lumière bleue.",
-  "led rouge": "Une diode électroluminescente émettant une lumière rouge.",
-  "led vert": "Une diode électroluminescente émettant une lumière verte.",
-  "résistance 2.2 kilo ohm": "Limite le courant à 2.2kΩ.",
-  "résistance 20 kilo ohm": "Limite le courant à 20kΩ.",
-  "résistance 220 kilo ohm": "Limite le courant à 220kΩ."
+  "condensateur": {
+    "description": "Composant stockant de l'énergie sous forme de champ électrique.",
+    "caracteristiques": ["Type: électrolytique/ céramique", "Capacité typique: nF → µF → mF", "Polarité: parfois OUI (électrolytique7)"]
+  },
+  "led bleu": {
+    "description": "Diode électroluminescente émettant une lumière bleue.",
+    "caracteristiques": ["Tension directe ~3.0–3.3 V", "Courant nominal 10–20 mA", "Polarité: Anode/Cathode"]
+  },
+  "led rouge": {
+    "description": "Diode électroluminescente émettant une lumière rouge.",
+    "caracteristiques": ["Tension directe ~1.8–2.2 V", "Courant nominal 10–20 mA", "Polarité: Anode/Cathode"]
+  },
+  "led vert": {
+    "description": "Diode électroluminescente émettant une lumière verte.",
+    "caracteristiques": ["Tension directe ~2.0–2.4 V", "Courant nominal 10–20 mA", "Polarité: Anode/Cathode"]
+  },
+  "resistance 2.2 kilo ohm": {
+    "description": "Résistance fixe de 2.2 kΩ.",
+    "caracteristiques": ["Tolérance: 1%/5%", "Puissance: 1/4W ou 1/8W", "Couleur: code 2-2-0-…"]
+  },
+  "resistance 20 kilo ohm": {
+    "description": "Résistance fixe de 20 kΩ.",
+    "caracteristiques": ["Tolérance: 1%/5%", "Puissance: 1/4W ou 1/8W", "Applications: diviseurs de tension"]
+  },
+  "resistance 220 kilo ohm": {
+    "description": "Résistance fixe de 220 kΩ.",
+    "caracteristiques": ["Tolérance: 1%/5%", "Puissance: 1/4W ou 1/8W", "Applications: pull-down haute valeur"]
+  }
 }

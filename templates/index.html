@@ -26,15 +26,9 @@
 
     <section class="vp">
       <div class="vp-content">
-        <div class="taher">
-          <img src="{{ url_for('static', filename='images/MH.jpg') }}" class="image" />
-          <p>
-            Taher Mokhtar et Adem hadidene: <span><mark>stagiaires</mark></span>
-          </p>
-        </div>
 
         <div class="formulaire">
-          <video id="camera" width="300" autoplay></video>
+          <video id="camera" width="400" style="border-radius: 50% ;background-color: white; border: 3px solid white ; " autoplay></video>
           <canvas id="snapshot" width="300" height="225" style="display: none;"></canvas>
           <br />
           <button onclick="takePhoto()" class="component">Capturer</button>
@@ -44,14 +38,11 @@
             <button type="submit" class="component">Envoyer pour prédiction</button>
           </form>
 
-          <div id="resultat" style="margin-top: 20px; color: black; font-size: 20px ;background: white;"></div>
-          <div><img id="detectedImage" src="" style="max-width:100%; margin-top: 20px;" /></div>
+          <div id="resultat" style="margin-top: 20px; color: black; font-size: 20px ;background: white; border-radius: 15%;"></div>
+          <div><img id="detectedImage" src="" style="max-width:100%; margin-top: 20px; border-radius: 15%;" /></div>
         </div>
 
-        <div class="mohamed">
-          <img src="{{ url_for('static', filename='images/khnine.jpg') }}" class="image" />
-          <p><span>M. Mohamed Khnine</span><mark>Encadreur</mark></p>
-        </div>
+    
       </div>
     </section>
 
